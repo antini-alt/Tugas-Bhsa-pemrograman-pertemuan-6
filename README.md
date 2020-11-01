@@ -69,9 +69,15 @@ keterangan :<br>
 2. fungsi **input ()** adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengmbilkan nilai saat kita menekan tombol enter
 *(newline)*<br>
 
+![input](picture/nama.PNG)
 
+pada gambar diatas,hasil dari inputan tersebut berwarna *hijau*<br>
 
+* untuk perintah masukan yang lain seperti *nikname, NPM, Born, age, home, phone numbe, masukan perintah yang sama seperti memasukkan *fullnmae*
 
+* Langkah kali ini saya akan menampilkan output yang diminta oleh Dosen,<br>
+output pertama yang diminta dosen adalah menampilkan salam, yaitu dengan mengetikkan 
+syntex/source memasukkan *Fullname*
 
 
 
