@@ -259,7 +259,37 @@ setelah saya menjalankan source code tersebut terdapat error, seperti gambar dib
 nah, untuk kali ini akan membaca error, yang telah terjadi.<br>
 >**Typeerror: %d format: a number is required, not str** <br>
 
+Pada error tersebut terbaca bahwa variable a adalah string, yang harus di baa oleh sistem namber/ interger.<br>
+*Bagamana cara memperbaiki error tersebut?*<br>
+Kita lihat pada garis 5 (dinotifikai tebaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan **.format()** Adalah interger. 
+Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan **.format()**<br>
+kita akan berfokus pada variable a dan b.<br>
+pada line 1 tertulis syntax : *a=input("Masukkan Nilai A : ")* <br>
+sedangkan line 2 tertulis syntax : *b=input(Masukkan Nilai B : ")* <br>
+untuk membuat inputan berupa interger /angka harus ditambahkan syntax int() pada format. yang seharusnya ditulis adalah : <br>
+```python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
 
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagin {1}/{0}=%d".format(a,b) %(a/b))
+```
+kita akan mencoba untuk *run* file tersebut, maka akan muncul seperti gambar dibawah ini :<br>
+![Fixer Eror lab 2](picture/lab2.bener.PNG)
+<br><br>
+<hr>
+Setelah file berhasil disimpan dan dijalankan, maka selesai sudah tugas pertemuan 6 - Bahasa pemrograman kali ini.
+<br>
+
+##========== THANK YOU =========== <br>
+## Antini permatasari /312010095/TI.20.B.1 <br>
+##================================ <br>
 
 
 
