@@ -103,8 +103,66 @@ Hasil dari output tersebut adalah :
 <br>
 
 ## pertemuan 6 - Lab 1
+Pada tugas pertemuan 6 - lab 1 saya diberikan tugas oleh Dosen yaitu mempelajari Aritmatika menggunakan bahasa pemprograman python. Berikut source code yang diberikan oleh Dosen :
+![pertemuan 6 - Lab 1](picture/lab1.PNG)
+```python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('Z')
 
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+kali ini saya akan menjelaskan materi yang diterima oleh Dosen.<br><br>
 
+*penggunaan End
+penggunaan end digunakan untuk menambahkan karakter yang dicetak diakhir baris. Secara default penggunaan end adalah untuk garis baris.
+``` python
+print("A", end="")
+print("B", end="")
+print("C", end="")
+```
+
+> penggunaan print() digunakan untuk mencetak output, seperti syntax dibawah ini :
+```python
+print("X")
+print("X")
+print("Z")
+```
+Hasil dari source code tersebut seperti gambar dibawah ini :<br>
+![]
+print
+<br>
+![outputend](picture/tm.1.PNG)<br>
+
+* penggunaan separator
+separator adalah pemisah yang berfungsi sebagai tana pemisah antar objek yang dicetak, Defaulnya adalah tanda seperti. <br><br>
+
+> pendeklarasian beberapa variable beserta nilainya
+```python
+print(w,x,y,z,sep=",")
+```
+> menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah , (koma)
+```python
+print(w,x,y,z,sep=")
+```
+> menampilkan hasil dari tiap-tiap variable tanpa menggunakan pemisah
+```python
+print(w,x,y,z,sep=")
+```
+
+Hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
+![output](picture/)
 * 
 
 
