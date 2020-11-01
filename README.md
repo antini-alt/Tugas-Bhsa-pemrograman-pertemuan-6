@@ -60,7 +60,7 @@ print ("Nama saya adalah ...")
 print(1234567)
 ``` 
 ![output fungsi print](picture/capture.PNG)<br>
-* untuk source code berikutnya adalah inputan atau membuat variable, seperti syntax dibawah ini
+* untuk source code berikutnya adalah inputan atau membuat variable, seperti syntax dibawah ini :
 ```python
 fullname=input()
 ```
