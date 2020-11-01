@@ -216,8 +216,20 @@ Dengan ketentuan sebagai berikut, operasi pangkat dengan kiri sebagai pokok (Rum
 pada syntax source code string format 2 akan menampilkan outputan juga (seperti string format 1, yaitu karna dan kiri)<br>
 Dengan ketentuan sebagai berikut : <br>
 > Aligment, padding, dan percesion dengan **.format** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. contoh lain seperti berikut : <br>
-
-* 
+```python
+print('{0:8} | {1:9}'.format('Buah','jumlah'))
+print('{0:8} | {1:9}'.format('Apel', 3.))
+print('{0:8} | {1:9}'.format('jeruk',10))
+```
+Hasil dari source code contoh diatas akan seperti berikut : <br>
+![output Aligmen contoh](picture/lab12.PNG)
+>secara Default, **.format** menggunakan rata teks ke kiri, angka ke kanan. kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. contoh lain dalam penggunaan **.format()** sebagai berikut : <br>
+```python
+print('{:<30}{:^30}{:>30}'.format(kiri)',' Tengah kanan))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))
+```
+Hasil dari source code contoh diatas akan muncul seperti ini :<br>
+![output Aligment contoh21](picture/)
 
 
 
