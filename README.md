@@ -175,7 +175,7 @@ string formating atau performatan string memungkinkan kita menyuntikan item keda
 
 penggunaan source code yang diberikan oleh dosen seperti : <br>
 ![lab 1-2](picture/format.PNG)
-```python
+``` python
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -206,7 +206,16 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 saat ini saya akan membahas satu persatu dari syntax yang telah diberikan oleh Dosen. <br>
 
 1. String format 1 <br>
+pada syntax / source code string format 1 akan menampilkan output berupa 2 output.<br>
+yang pertama (sebelah) akan menampilkan angka urut dari angka 0 hingga angka 10, sedangkan untuk angka sebelah kanan akan menampilkan operasi Aritmatika pangkat.<br>
+Dengan ketentuan sebagai berikut, operasi pangkat dengan kiri sebagai pokok (Rumus **[bintang dua])<br>
+![operasi Aritmatika pangkat](picture/format1.PNG)
 
+\
+2. **string format 2** <br>
+pada syntax source code string format 2 akan menampilkan outputan juga (seperti string format 1, yaitu karna dan kiri)<br>
+Dengan ketentuan sebagai berikut : <br>
+> Aligment, padding, dan percesion dengan **.format** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. contoh lain seperti berikut : <br>
 
 * 
 
@@ -214,30 +223,4 @@ saat ini saya akan membahas satu persatu dari syntax yang telah diberikan oleh D
 
 
 ``` 
-source code diatas berfungsi untuk mencetak hasil / output berupa "*please enter full name :*" <br>
-untuk menampilkan input string, saya menggunakan *tanda petik dua* didalam fungsi input(), sedangkan jika saya ingin menampilkan output/hasil berupa angka/interger saya tidak perlu menggunakan *tanda petik dua*. contohnya :
-```python
-fullname=input()
-```
-ket : <br>
--Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan yang berfungsi sebagai variable dalam source code diatas adalah *fullname*.
--Fungsi *input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat  
-
-
-
-<br>
-sekarang saya akan membahas satu persatu syntax yang telah diberikan oleh Dosen.<br>
-
-1. string format 1<br>
-pada syntax / source code string format 1 akan menampilkan output 2 outputan.<br>
-yang pertama (sebelum kiri) akan menampilkan angka urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan operasi Aritmatika pangkat.<br>
-Dengan ketentuan, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : **[bintang dua] )<nr>
-Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output sebagai berikut : <br>
-![Operasi Aritmatika pangkat]()
-
-2. string format 2<br>
-pada syntax / source code string fomat 2 akan menampilkan output 2 output'an juga, (seperti string format 1, yaitu kanan dan kiri )<br>
-Dengan ketentuan : <br>
-> Alignment, padding, dan procesion dengan **format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan atau kiri, paramenter pembulatan dan banyak lagi. contoh lain seperti berikut :
-```python
- 
+source 
