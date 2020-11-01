@@ -225,11 +225,41 @@ Hasil dari source code contoh diatas akan seperti berikut : <br>
 ![output Aligmen contoh](picture/lab12.PNG)
 >secara Default, **.format** menggunakan rata teks ke kiri, angka ke kanan. kita dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. contoh lain dalam penggunaan **.format()** sebagai berikut : <br>
 ```python
-print('{:<30}{:^30}{:>30}'.format(kiri)',' Tengah kanan))
+print('{:<30}{:^30}{:>30}'.format('kiri','Tengah','kanan'))
 print('{:<30}{:^30}{:>30}'.format(12,34,56))
 ```
 Hasil dari source code contoh diatas akan muncul seperti ini :<br>
-![output Aligment contoh21](picture/)
+![output Aligment contoh21](picture/kirikanan.PNG)
+<br><br>
+untuk hasil dari string format 2 adalah :<br>
+![output string format 21](picture/poto2.PNG)
+
+## pertemuan 6 - Lab 2
+* konversi nilai variable
+untuk pembahasan terakhir,kali ini akan menyelesaikan tugas lab 2 dari Dosen, yaitu konversi nilai variable <br>
+tugas yang dierikan dosen adalah seperti gambar dibawah ini atau bisa di akses ke link [pertemuan 6 - lab 2](lab2.py):<br>
+![picture lab 2](picture/lab2.PNG)
+```python
+a=(input("masukan nilai a:")
+b=(input("masukan nilai b:")
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konvesi nilai variable
+a=int(a)
+b=int(b)
+print("hasil penjumlahan {1}+{0}=%d".format(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(/b))
+```
+<br>
+setelah saya menjalankan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
+
+![eror lab 2](picture/eror.PNG)<br>
+nah, untuk kali ini akan membaca error, yang telah terjadi.<br>
+>**Typeerror: %d format: a number is required, not str** <br>
+
+
 
 
 
