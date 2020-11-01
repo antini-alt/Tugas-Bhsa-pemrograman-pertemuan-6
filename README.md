@@ -51,6 +51,24 @@ print("\n")
 ``` python
 berikut penjelasan : <br>
 ``` python
+print("please enter full name : ")
+```
+source code diatas berfungsi untuk mencetak hasil / output berupa " **please enter your full name : **" (seperti gambar dibawah ini)<br>
+untuk menampilkan output string, saya menggunakan *tanda petik dua* didalam fungsi print(), sedangkan jika saya ingin menampilkan output /atau hasil berupa angka/interger saya tidak perlu menggunakan *tanda petik dua*. contohnya :
+``` python
+print ("Nama saya adalah ...")
+print(1234567)
+``` 
+![output fungsi print](picture/capture.PNG)<br>
+* untuk source code berikutnya adalah inputan atau membuat variable, seperti syntax dibawah ini
+```python
+fullname=input()
+```
+keterangan :<br>
+1. variable adalah sebuah penyimpanan data pada program yang akan digunakan sealam program ini berjalan. yang berfungsi sebagai variable dalam source code diatas adalah **Fullname** . <br>
+2. fungsi **input ()** adalah untuk memasukkan nilai dari layar console di command prompt, lalu kemudian mengmbilkan nilai saat kita menekan tombol enter
+*(newline)*<br>
+
 
 
 
